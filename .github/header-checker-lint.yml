@@ -1,3 +1,7 @@
+# Presubmit test that ensures that source files contain valid license headers
+# https://github.com/googleapis/repo-automation-bots/tree/main/packages/header-checker-lint
+# Install: https://github.com/apps/license-header-lint-gcf
+
 allowedCopyrightHolders:
   - 'Google LLC'
 allowedLicenses:

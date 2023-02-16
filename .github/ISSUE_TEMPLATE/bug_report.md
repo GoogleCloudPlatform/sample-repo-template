@@ -17,9 +17,8 @@ If you are still having issues, please be sure to include as much information as
 #### Environment details
 
   - OS:
-  - Python version:
-  - pip version:
-  - `synthtool` version:
+  - Language version:
+  - Package/Project management version:
 
 #### Steps to reproduce
 
