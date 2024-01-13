@@ -37,23 +37,22 @@
   ],
   // https://docs.renovatebot.com/configuration-options/#prbodynotes
   "prBodyNotes": [
-    "Reviewer is responsible for dependency update. Ensure adequate automated",
-    "or manual testing is performed before merge.",
+    "Reviewer is responsible for dependency update. Ensure adequate automated or manual testing is performed before merge.",
   ],
 
   "packageRules": [
     // Report impact of a dependency update via PR label.
     {
       "matchUpdateTypes": ["patch"],
-       "labels": ["semver: patch"],
+       "addLabels": ["semver: patch"],
     },
     {
       "matchUpdateTypes": ["minor"],
-       "labels": ["semver: minor"],
+       "addLabels": ["semver: minor"],
     },
     {
       "matchUpdateTypes": ["major"],
-       "labels": ["semver: major"],
+       "addLabels": ["semver: major"],
     },
 
     // Language-specific behaviors.
